@@ -17,7 +17,7 @@ async function checkAuthStatus() {
         if (response.ok) {
             const user = await response.json();
             console.log('Usuario autenticado:', user);
-            // Puedes agregar más lógica aquí si es necesario
+            
         } else {
             const error = await response.json();
             console.error('Error al obtener el perfil del usuario:', error.message);

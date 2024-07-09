@@ -94,6 +94,5 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 function estamosEnIndex() {
     const pathname = document.location.pathname;
-    // Comprueba si el pathname es '/' o '/index.html'
     return pathname === '/' || pathname === '/index.html';
 }
