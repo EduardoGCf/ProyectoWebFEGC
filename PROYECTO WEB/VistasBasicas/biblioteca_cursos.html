@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Upskill</title>
+ 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <link rel="stylesheet" href="../css/headder.css">
+
+    <link rel="stylesheet" href="../css/footer.css">
+
+    <link rel="stylesheet" href="../css/biblioteca/style.css">
+    <link rel="stylesheet" href="../js/barrabiblio.js">
+    
+</head>
+
+<body>
+    <section class="headder">
+        <div class="logo__container">
+            <div class="headder__logo">
+                <img src="../img/logo.png" alt="logo">
+            </div>
+            <div class="name__empresa">
+                <a href="../index.html">Upskill</a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="headder__nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../VistasBasicas/biblioteca_cursos.html">Cursos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="headder__login">
+                <nav class="menu">
+                    <label class="menu-label" for="menu-switch">
+                        Menu
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="menu-switch">
+                    <ul class="menuUsuario" id="menuUsuario">
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <script src="../js/menuUsuario.js"></script>
+    </section>
+    
+
+    <section class="main">
+        <div class="main__container">
+            <h1>Biblioteca de Cursos</h1>
+            <div class="course-search">
+                <form action="search.html" method="get">
+                    <input type="text" name="q" placeholder="Buscar Curso" id="filtro-nombre">
+                    <select id="menu__categoria">
+                        <option value="all">Todos</option>
+            
+                      </select>
+                    <button type="button"><i class="fa-solid fa-search"></i></button>
+                </form>
+            </div>
+        </div>
+        <div class="cursos__contenedor">
+            <button class="anterior__curso"><i class="fa-solid fa-arrow-left"></i></button>
+            <div class="Curso__list">
+                <ul id="lista-cursos-biblioteca">
+                    
+                </ul>
+            </div>
+            <button class="siguiente__curso"><i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+    </section>
+
+    <section class="footer">
+        <div class="footer__nav">
+            <nav>
+                <ul>
+                    <li>Tel: +591 77693687</li>
+                    <li>Upskill@mail.com</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__logo">
+            <img src="../img/logo.png" alt="logo">
+        </div>
+    </section>
+    <script src="../js/barrabiblio.js"></script>
+    <script src="../js/biblioteca_cursos.js" defer></script>
+
+</body>
+
+</html>

@@ -1,0 +1,199 @@
+.body__container{
+    background-color: #1f2120;
+    color: white;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px 20px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.curso{
+    display: block;
+    padding: 20px;
+    margin: 10px;
+
+}
+.principal{
+    width: 100%;
+    display: block;
+}
+#btnGuardarCurso{
+    
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e23932;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#btnEliminarCurso{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e23932;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#nombre_curso{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 50%;
+}
+#categoria_curso{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+#descripcion_curso{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 80%;
+}
+.imagen__contenedor{
+    position: relative;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.imagen__contenedor label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    
+}
+
+.imagen__contenedor img{
+    width: 100%;
+    min-width: 200px;
+    max-width: 500px;
+    height: 200;
+   
+    border-radius: 10px;
+    margin: 10px;
+}
+.imagen__contenedor input[type="file"] {
+    border: 1px solid #ddd;
+    padding: 8px;
+    max-width: 100%;
+}
+
+.imagen__contenedor button{
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 40px;
+    height: 40px;
+    background-color: #e23932;
+    color: white;
+    border: none;
+    cursor: pointer;
+    left: 0;
+    top: 0;
+}
+
+
+.headder__leccion{
+    display: flex;
+    padding: 20px;
+    margin: 10px;
+}
+.identif{
+    padding-right: 10px;
+    
+}
+.leccion__container{
+    align-items: center;
+    margin: 10px 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #2b2d2c;
+}
+.crea__leccion_bs
+{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+.crea__leccion_bs input{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 85%;
+}
+.crea__leccion_bs button{
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 100px;
+    background-color: #e23932;
+    color: white;
+}
+
+.list__cleccion{
+    display: block;
+    margin: 10px;
+    padding: 0;
+    list-style: none;
+}
+.lecciono__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 0;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #2b2d2c;
+}
+
+.list__leccion {
+    margin: 10px 20px;
+    padding: 0;
+}
+
+
+.lecciono__item a{
+    margin-left: 10px;
+    padding-left: 10px;
+    width: 80%;
+    border-left: white 1px solid;
+    color: white;
+    text-decoration: none;
+    overflow: hidden;
+    
+}
+
+.lecciono__item button{
+    padding: 10px;
+    margin-left: 5px;
+    border-radius: 10px;
+    background-color: #e23932;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+#file_img_curso{
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #e23932;
+    color: white;
+    border: none;   
+}
+
+
+@media (min-width: 768px){
+    .curso{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

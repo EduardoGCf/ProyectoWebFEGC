@@ -1,0 +1,147 @@
+/* Container */
+.leccion__container {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 20px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #2b2d2c;
+    min-height: 80vh;
+}
+.leccion__container h2{
+    color: white;
+    font-size: 20px;
+    padding: 20px 0 ;
+    border-top: 1px solid darkred;
+}
+/* Header */
+.headder__cont {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 20px;
+}
+
+/* Back Link */
+.leccion__back {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+}
+
+/* Buttons */
+#btnGuardarLeccion,
+#btnEliminarLeccion,
+#btnBorrarFile,
+#btn-process {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    color: white;
+    background-color: #e23932;
+}
+
+#btnGuardarLeccion,
+#btnEliminarLeccion,
+#btn-process {
+    width: 150px;
+}
+
+#btnBorrarFile {
+    width: 150px;
+}
+
+/* Inputs */
+#nombre_leccion,
+#leccion__file,
+#banner_leccion,
+#youtube_link,
+#descripcion_leccion {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 85%;
+    max-width: 1000px;
+    background-color: white;
+    color: #2b2d2c;
+}
+
+#descripcion_leccion{
+    height: 100px;
+}
+
+/* Content Containers */
+.leccion__archivo,
+.leccion__youtube {
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px;
+    width: 85%;
+    display: block;
+    text-align: center;
+}
+
+/* Iframe */
+#leccion__iframe,
+#youtube_video {
+    padding: 10px;
+    border-radius: 10px;
+    margin: auto;
+    width: 90%;
+    height: 300px;
+}
+
+/* Video Container */
+#info-video {
+    display: none;
+    text-align: center;
+
+}
+
+/* Thumbnail and Video */
+#url-imagen,
+#imagen-container,
+#video-area {
+    margin: 10px;
+}
+#video-area iframe {
+    width: 100%;
+    
+    border-radius: 10px;
+    max-width: 700px;
+
+}
+#banner-preview {
+    margin: auto;
+    max-width: 500px;
+    max-height: 500px;
+    height: auto;
+    display: none;
+}
+
+@media (min-width: 768px) {
+    .leccion__container {
+        width: 80%;
+        margin: 50px auto;
+    }
+    #leccion__iframe,
+    #youtube_video {
+        height: 500px;
+    }
+}
+
+@media (max-width: 767px) {
+    .headder__cont {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #btnGuardarLeccion,
+    #btnEliminarLeccion {
+        width: 100%;
+        margin: 5px 0;
+    }
+}

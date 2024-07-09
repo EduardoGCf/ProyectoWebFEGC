@@ -1,0 +1,245 @@
+/* Estructura principal */
+.body__container {
+    background-color: #1f2120;
+    color: white;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 20px;
+    display: block;
+    min-height: 80vh;
+}
+
+/* Búsqueda */
+.search__container {
+    display: flex;
+    justify-content: left;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px;
+}
+
+.search__container input,
+.search__container select {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+/* Cabecera de curso */
+.headder__curse {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+    margin: 10px;
+}
+
+.nombre {
+    margin-left: 20px;
+}
+
+/* Contenedor de cursos */
+.cursos__container {
+    align-items: center;
+    margin: 10px 20px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #2b2d2c;
+}
+
+/* Creación de curso */
+.crea__curso_bs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.crea__curso_bs p,
+.crea__curso_bs input,
+.crea__curso_bs button,
+.crea__curso_bs select {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.crea__curso_bs p {
+    width: 40px;
+}
+
+.crea__curso_bs input {
+    width: 85%;
+}
+
+.crea__curso_bs button {
+    width: 100px;
+    background-color: #e23932;
+    color: white;
+}
+.crea__curso_bs div:first-child{
+    display: flex ;
+}
+
+.cursoError {
+   width: 100%;
+}
+/* Lista de cursos */
+.list__cursos {
+    display: block;
+    margin: 10px;
+    list-style: none;
+    padding: 0;
+}
+
+.categ {
+    max-width: 150px;
+    margin: 10px;
+    text-align: center;
+}
+
+/* Elemento de curso */
+.curso__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: #2b2d2c;
+}
+
+.curso__item a {
+    color: white;
+    text-decoration: none;
+    line-height: 18px;
+    font-size: 16px;
+    text-align: left;
+    width: 85%;
+    margin: 10px;
+    text-align: center;
+}
+#categoName::before{
+    content: "Categoría ";
+
+    color: #e23932;
+}
+.curso__item a::before{
+    content: "Nombre: ";
+
+    color: #e23932;
+}
+
+.curso__item div {
+    display: flex;
+    align-items: center;
+}
+
+.curso__id {
+    width: 40px;
+    padding: 15px;
+    background-color: #1f2120;
+    border-radius: 10px;
+    margin: 10px;
+    box-shadow: #1f2120 0 0 10px;
+}
+
+/* Creación de categoría */
+.crea__categoria_bs {
+    display: flex;
+    flex-wrap: wrap;
+    border: #2b2d2c 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: brown;
+    box-shadow: brown 0 0 5px;
+    justify-content: space-between;
+    align-items: center; 
+    margin: 0 auto 0 0 ;   
+    width: 350px;
+}
+
+.crea__categoria_bs button {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    background-color: #e23932;
+    color: white;
+}
+
+.crea__categoria_bs select {
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+    width: 150px;
+}
+
+/* Error de categoría */
+
+
+.crea__categoria_bs input {
+    border-radius: 10px;
+    width: 100%;
+    padding: 10px;
+}
+.error-message {
+    color: black;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Botón eliminar curso */
+.btnEliminarCurso {
+    margin-left: 10px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.btnEliminarCurso:hover {
+    background-color: #e23932;
+    color: white;
+}
+
+/* Formulario de categoría de curso */
+#categoria_curso_form {
+    text-align: left;
+}
+
+
+/* Media queries */
+@media (min-width: 768px) {
+    .crea__curso_bs {
+        justify-content: left;
+    }
+    .cursoError {
+        width: 600px;
+    }
+    .curso__item {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+        flex-direction: row;
+    }
+    .curso__item {
+        justify-content: space-between;
+        flex-wrap: nowrap;
+    }
+    .curso__item a {
+        text-align: left;
+    }
+}
+
+@media (min-width: 992px) {
+    .crea__curso_bs { 
+        justify-content: space-between;
+         
+    }
+    .cursoError {
+        width: 800px;
+    }
+}

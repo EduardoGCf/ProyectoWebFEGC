@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Upskill</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <link rel="stylesheet" href="../css/headder.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/login/style.css">
+
+</head>
+
+<body>
+    <section class="headder">
+        <div class="logo__container">
+            <div class="headder__logo">
+                <img src="../img/logo.png" alt="logo">
+            </div>
+            <div class="name__empresa">
+                <a href="../index.html">Upskill</a>
+            </div>
+        </div>
+    </section>
+
+    <div class="login-container">
+        <h1>Inicio de Sesión</h1>
+        <p class="ingrese">Ingresa tu Correo y tu contraseña</p>
+        <form id="login-form">
+                <div class="form-group">
+                    <input type="email" id="username" name="username" placeholder="email@domain.com">
+                    <span id="usernameError" class="error-message"></span>
+                </div>
+                <div class="form-group">
+                    <input type="password" id="password" name="password" placeholder="Contraseña">
+                    <span id="passwordError" class="error-message"></span>
+                </div>
+                <button type="submit">Iniciar Sesión</button>
+                <button type="button" onclick="window.location.href='sign_up.html'">Crear Cuenta</button>
+            
+            <p class="terms">By clicking continue, you agree to our <a  class="termsa">Terms of Service</a> and
+                <a  class="termsa">Privacy Policy</a></p>
+        </form>
+    </div>
+
+    <section class="footer">
+        <div class="footer__nav">
+            <nav>
+                <ul>
+                    <li>Tel: +591 77693687</li>
+                    <li>Upskill@mail.com</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__logo">
+            <img src="../img/logo.png" alt="logo">
+        </div>
+    </section>
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upskill - Clase 1</title>
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+
+    <link rel="stylesheet" href="../css/headder.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/class_detail_lg/style.css">
+</head>
+
+<body>
+    <section class="headder">
+        <div class="logo__container">
+            <div class="headder__logo">
+                <img src="../img/logo.png" alt="logo">
+            </div>
+            <div class="name__empresa">
+                <a href="../index.html">Upskill</a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="headder__nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../VistasBasicas/biblioteca_cursos.html">Cursos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="headder__login">
+                <nav class="menu">
+                    <label class="menu-label" for="menu-switch">
+                        Menu
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="menu-switch">
+                    <ul class="menuUsuario" id="menuUsuario">
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <script src="../js/menuUsuario.js"></script>
+    </section>
+    
+    <section class="class__container">
+        <div class="container">
+            <div class="class-info">
+                <h1>Si ves esto es probable que sea un error habla con el administrador</h1>
+                <p class="class-description">Si ves esto es probable que sea un error habla con el administrador</p>
+                <p class="body-text">
+                    ¿Sueñas con crear tus propias aplicaciones, analizar datos como un experto o incluso desarrollar
+                    sitios web? ¡Entonces este curso de programación en Python es para ti! Embárcate en un viaje
+                    emocionante donde aprenderás los fundamentos de la programación desde cero, utilizando uno de los
+                    lenguajes de programación más populares y versátiles del mundo: Python.
+                </p>
+                <p class="lorem-text">
+                    En este curso intensivo, te sumergirás en el mundo de la programación y desarrollarás las
+                    habilidades necesarias para convertirte en un maestro de la codificación. Aprenderás desde los
+                    conceptos básicos de la programación hasta técnicas avanzadas de desarrollo, lo que te permitirá
+                    crear programas robustos, eficientes y escalables.
+                </p>
+            </div>
+            <div class="image-container">
+                <img src="../img/default-curse.jpg" alt="Class Image">
+                <div class="footer__img">
+                    <div class="progress-container">
+                        <div class="progress-bar" style="width: 0%; "></div>
+                    </div>
+                    <button class="desmatricular">Desmatricularse</button>
+                </div>
+            </div>
+        </div>
+        <div class="lessons">
+            <ul class="lesson-list">
+                <!-- Las lecciones se añadirán aquí dinámicamente -->
+            </ul>
+        </div>
+    </section>
+    <section class="footer">
+        <div class="footer__nav">
+            <nav>
+                <ul>
+                    <li>Tel: +591 77693687</li>
+                    <li>Upskill@mail.com</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__logo">
+            <img src="../img/logo.png" alt="logo">
+        </div>
+    </section>
+    <script src="../js/class_detail_lg.js" defer></script>
+</body>
+
+</html>

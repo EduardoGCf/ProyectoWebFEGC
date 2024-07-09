@@ -1,0 +1,47 @@
+Claro, aquí tienes un ejemplo de cómo podría ser la primera lección de un curso introductorio de programación en Python:
+
+---
+
+**Bienvenidos a Python: Introducción a la Programación**
+
+**Objetivo de la lección:** Familiarizarse con los conceptos básicos de programación y aprender los fundamentos de Python como lenguaje de programación.
+
+**1. Introducción a la programación:**
+   - ¿Qué es la programación?
+   - Importancia y aplicaciones en el mundo actual.
+   - Tipos de lenguajes de programación.
+
+**2. ¿Qué es Python?**
+   - Historia y evolución.
+   - Características principales.
+   - Aplicaciones y casos de uso.
+
+**3. Configuración del entorno de desarrollo:**
+   - Instalación de Python.
+   - Elección de un entorno de desarrollo integrado (IDE) o uso de Jupyter Notebook.
+
+**4. Primer programa en Python: "Hola, mundo!"**
+   - Explicación del programa.
+   - Ejecución y verificación del resultado.
+
+```python
+# Ejemplo de programa "Hola, mundo!" en Python
+print("Hola, mundo!")
+```
+
+**5. Conceptos básicos de Python:**
+   - Variables y tipos de datos (números, cadenas, booleanos).
+   - Operadores básicos (aritméticos, de comparación, lógicos).
+
+**6. Ejercicios prácticos:**
+   - Creación de variables y asignación de valores.
+   - Realización de operaciones simples.
+   - Manipulación de cadenas de texto básicas.
+
+**7. Conclusiones y próxima lección:**
+   - Resumen de lo aprendido.
+   - Preparación para la próxima clase.
+
+---
+
+Esta estructura proporciona una introducción clara y paso a paso a los conceptos básicos de la programación usando Python, ideal para principiantes sin experiencia previa en programación.

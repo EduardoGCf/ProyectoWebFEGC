@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lección</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/headder.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/ADMINISTRADOR/leccionadm.css">
+</head>
+<body>
+    <section class="headder">
+        <div class="logo__container">
+            <div class="headder__logo">
+                <img src="../img/logo.png" alt="logo">
+            </div>
+            <div class="name__empresa">
+                <a href="../index.html">Upskill</a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="headder__nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../VistasBasicas/biblioteca_cursos.html">Cursos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="headder__login">
+                <nav class="menu">
+                    <label class="menu-label" for="menu-switch">
+                        Menu
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="menu-switch">
+                    <ul class="menuUsuario" id="menuUsuario">
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <script src="../js/menuUsuario.js"></script>
+    </section>
+    
+
+    <section class="leccion__container">
+        <div class="headder__cont">
+            <a href="#" id="btnVolverCurso" class="leccion__back"><i class="fa fa-arrow-left"></i> Volver al los Cursos</a>
+            <div>
+                <button id="btnGuardarLeccion">Guardar</button>
+                <button id="btnEliminarLeccion">Eliminar</button>
+            </div>
+        </div>
+        <h2 >Nombre de la Lección</h2>
+        <input type="text" id="nombre_leccion" name="nombre_leccion" placeholder="Nombre De La Leccion">
+        <span id="leccionNameError" class="error-message"></span>
+        <h2 >Descripción de la Lección</h2>
+        <textarea id="descripcion_leccion" name="descripcion_leccion" placeholder="Descripción de la Lección"></textarea>
+        <h2 >Banner de la Lección</h2>
+        <input type="file" id="banner_leccion" name="banner_leccion" placeholder="Banner de la Lección">
+        <img id="banner-preview" alt="Banner de la Lección" style="max-width: 100%; height: auto; display: none;">
+        <h2 for="youtube_link">Link Video YT</h2>
+        <input type="text" id="youtube_link" name="youtube_link" placeholder="Enlace de YouTube">
+        <button id="btn-process">Procesar</button>
+        <div id="info-video" style="display: none;">
+            <div id="url-imagen"></div>
+            <div id="imagen-container"></div>
+            <div id="video-area"></div>
+        </div>
+        <h2>Archivo de la Lección</h2>
+        <input type="file" id="leccion__file" name="leccion__file" placeholder="Archivo de la Lección">
+        <iframe id="leccion__iframe" src="" frameborder="0" ></iframe>
+
+        <button id="btnBorrarFile">Borrar archivo</button>
+    </section>
+
+    <section class="footer">
+        <div class="footer__nav">
+            <nav>
+                <ul>
+                    <li>Tel: +591 77693687</li>
+                    <li>Upskill@mail.com</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__logo">
+            <img src="../img/logo.png" alt="logo">
+        </div>
+    </section>
+    <script src="../js/leccionadm.js"></script>
+</body>
+</html>

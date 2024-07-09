@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upskill</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="../css/normalize.css">
+    <link rel="stylesheet" href="../css/fonts.css">
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/headder.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/class_detail/style.css">
+</head>
+<body>
+    <section class="headder">
+        <div class="logo__container">
+            <div class="headder__logo">
+                <img src="../img/logo.png" alt="logo">
+            </div>
+            <div class="name__empresa">
+                <a href="../index.html">Upskill</a>
+            </div>
+        </div>
+        <div class="nav">
+            <div class="headder__nav">
+                <nav>
+                    <ul>
+                        <li><a href="../index.html">Inicio</a></li>
+                        <li><a href="../VistasBasicas/biblioteca_cursos.html">Cursos</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="headder__login">
+                <nav class="menu">
+                    <label class="menu-label" for="menu-switch">
+                        Menu
+                        <i class="fa-solid fa-bars"></i>
+                    </label>
+                    <input type="checkbox" id="menu-switch">
+                    <ul class="menuUsuario" id="menuUsuario">
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <script src="../js/menuUsuario.js" ></script>
+    </section>
+    
+    <div class="container">
+        <div class="course-details">
+            <h1 id="idNombreClase">Si ves esto es probable que sea un error habla con el administrador</h1>
+            <p id="iddetalleClase">En este curso, te guiaremos desde los conceptos básicos de la programación hasta la creación de tus
+                propios programas y aplicaciones. Aprenderás a pensar como un programador y a desarrollar las
+                habilidades necesarias para resolver problemas de forma creativa y eficiente.
+
+            ¿Qué aprenderás? Fundamentos de la programación: Variables, tipos de datos y operadores; Estructuras
+                condicionales y bucles; Funciones y módulos. Lenguajes de programación: Python: Un lenguaje versátil y
+                fácil de aprender; JavaScript: El lenguaje esencial para el desarrollo web; HTML y CSS: Para crear
+                interfaces web atractivas. Paradigmas de programación: Programación orientada a objetos; Programación
+                funcional. Metodologías de desarrollo: Agile; Scrum. Y mucho más: Control de versiones con Git;
+                Depuración de código; Pruebas de software.
+            Este curso está diseñado para principiantes que deseen aprender a programar desde cero. No se requiere
+                experiencia previa en programación, pero se recomienda tener conocimientos básicos de informática y
+                matemáticas.</p>
+        </div>
+
+        <div class="course-sidebar">
+            <img src="" alt="Imagen del curso" id="idImgCurso">
+            <button id="enroll-button">Matricularme</button>
+            <h3>Lista de lecciones 
+            </h3>
+            <ul class="lesson-list" id="idlista-leccion">
+                <!-- Las lecciones se añadirán aquí dinámicamente -->
+            </ul>
+        </div>
+    </div>
+
+    <section class="footer">
+        <div class="footer__nav">
+            <nav>
+                <ul>
+                    <li>Tel: +591 77693687</li>
+                    <li>Upskill@mail.com</li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer__logo">
+            <img src="../img/logo.png" alt="logo">
+        </div>
+    </section>
+    <script src="../js/class_detail.js" defer></script>
+</body>
+</html>
